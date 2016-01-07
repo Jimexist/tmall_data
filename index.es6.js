@@ -2,6 +2,7 @@ import express from 'express';
 import sqlite from 'sqlite3';
 import data from './data.json';
 import bodyParser from 'body-parser';
+import morgan from 'morgan';
 
 const sqlite3 = sqlite.verbose();
 const db = new sqlite3.Database(':memory:');
@@ -35,6 +36,7 @@ db.serialize(() => {
 
 const app = express();
 app.use(bodyParser.json());
+app.use(morgan('common'));
 app.set('json spaces', 2);
 
 app.get('/', (req, res) => {
