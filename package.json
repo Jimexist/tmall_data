@@ -4,7 +4,9 @@
   "description": "tmall data",
   "main": "index.js",
   "scripts": {
-    "watch": "babel index.es6.js -w -o index.js --source-maps inline",
+    "build": "babel index.es6.js -o index.js",
+    "watch": "npm run build -- -w",
+    "postinstall": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
