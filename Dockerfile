@@ -1,2 +1,2 @@
-FROM node:latest
+FROM node:onbuild
 EXPOSE 3000
