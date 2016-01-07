@@ -18,12 +18,14 @@
   },
   "homepage": "https://github.com/Jimexist/tmall_data#readme",
   "dependencies": {
+    "body-parser": "^1.14.2",
     "express": "^4.13.3",
     "sqlite3": "^3.1.1"
   },
   "devDependencies": {
     "babel-cli": "^6.4.0",
-    "babel-preset-es2015": "^6.3.13"
+    "babel-preset-es2015": "^6.3.13",
+    "nodemon": "^1.8.1"
   },
   "babel": {
     "presets": [
