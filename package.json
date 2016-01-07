@@ -4,6 +4,7 @@
   "description": "tmall data",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "build": "babel index.es6.js -o index.js",
     "watch": "npm run build -- -w",
     "postinstall": "npm run build",
@@ -22,6 +23,7 @@
   "dependencies": {
     "body-parser": "^1.14.2",
     "express": "^4.13.3",
+    "pm2": "^1.0.0",
     "sqlite3": "^3.1.1"
   },
   "devDependencies": {
