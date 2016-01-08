@@ -101,7 +101,11 @@ router
   .get('/items', (req, res, next) => {
     const limit = req.query.limit || DEFAULT_PAGE_SIZE;
     const after = req.query.after || -1;
-    db.all('SELECT * FROM items WHERE id > ? ORDER BY id ASC LIMIT ?', after, limit, (err, rows) => {
+    db.all(`SELECT *
+      FROM items
+      WHERE id > ?
+      ORDER BY id ASC
+      LIMIT ?`, after, limit, (err, rows) => {
       if (err) {
         next(err);
       } else {
@@ -119,7 +123,9 @@ router
     });
   })
   .get('/brands', (req, res, next) => {
-    db.all('SELECT * FROM brands ORDER BY name', (err, rows) => {
+    db.all(`SELECT *
+      FROM brands
+      ORDER BY name`, (err, rows) => {
       if (err) {
         next(err);
       } else {
@@ -130,10 +136,11 @@ router
   .get('/brands/:brand_name/items', (req, res, next) => {
     const limit = req.query.limit || DEFAULT_PAGE_SIZE;
     const after = req.query.after || -1;
-    db.all(`SELECT * FROM items AS i JOIN brands AS b
-      ON i.brand == b.name
-      WHERE b.name == ? AND i.id > ?
-      ORDER BY i.id
+    db.all(`SELECT *
+      FROM items
+      WHERE items.brand == ?
+      AND id > ?
+      ORDER BY id ASC
       LIMIT ?`, req.params.brand_name, after, limit, (err, rows) => {
       if (err) {
         next(err);
@@ -143,7 +150,9 @@ router
     });
   })
   .get('/companies', (req, res, next) => {
-    db.all('SELECT * FROM companies ORDER BY name', (err, rows) => {
+    db.all(`SELECT *
+      FROM companies
+      ORDER BY name`, (err, rows) => {
       if (err) {
         next(err);
       } else {
@@ -152,13 +161,10 @@ router
     });
   })
   .get('/companies/:company_name/brands', (req, res, next) => {
-    const limit = req.query.limit || DEFAULT_PAGE_SIZE;
-    const after = req.query.after || -1;
-    db.all(`SELECT * FROM brands AS b JOIN companies AS c
-      ON b.holdingCompany == c.name
-      WHERE c.name == ? AND b.name > ?
-      ORDER BY b.name
-      LIMIT ?`, req.params.company_name, after, limit, (err, rows) => {
+    db.all(`SELECT *
+      FROM brands
+      WHERE holdingCompany == ?
+      ORDER BY name`, req.params.company_name, (err, rows) => {
       if (err) {
         next(err);
       } else {
