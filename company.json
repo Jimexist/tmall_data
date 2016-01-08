@@ -1,0 +1,172 @@
+[
+  {
+    "id": 1001,
+    "properties": {
+      "name": "Adidas",
+      "country": "Germany",
+      "foundingYear": 1924,
+      "revenue": 14490
+    },
+    "type": "company"
+  },
+  {
+    "id": 1002,
+    "properties": {
+      "name": "PVH",
+      "country": "US",
+      "foundingYear": 1924,
+      "revenue": 6043
+    },
+    "type": "company"
+  },
+  {
+    "id": 1003,
+    "properties": {
+      "name": "江南布衣",
+      "country": "China",
+      "foundingYear": 1994,
+      "revenue": 135
+    },
+    "type": "company"
+  },
+  {
+    "id": 1004,
+    "properties": {
+      "name": "Esprit",
+      "country": "Germany",
+      "foundingYear": 1968,
+      "revenue": 2503
+    },
+    "type": "company"
+  },
+  {
+    "id": 1005,
+    "properties": {
+      "name": "Maus Frères",
+      "country": "Swiss",
+      "foundingYear": 1902,
+      "revenue": 135
+    },
+    "type": "company"
+  },
+  {
+    "id": 1006,
+    "properties": {
+      "name": "Gap",
+      "country": "US",
+      "foundingYear": 1968,
+      "revenue": 16148
+    },
+    "type": "company"
+  },
+  {
+    "id": 1007,
+    "properties": {
+      "name": "G-Star",
+      "country": "Netherlands",
+      "foundingYear": 1989,
+      "revenue": null
+    },
+    "type": "company"
+  },
+  {
+    "id": 1008,
+    "properties": {
+      "name": "AF",
+      "country": "US",
+      "foundingYear": 1892,
+      "revenue": 3744
+    },
+    "type": "company"
+  },
+  {
+    "id": 1009,
+    "properties": {
+      "name": "Hugo Boss",
+      "country": "Germany",
+      "foundingYear": 1924,
+      "revenue": 2432
+    },
+    "type": "company"
+  },
+  {
+    "id": 1010,
+    "properties": {
+      "name": "I.T",
+      "country": "China",
+      "foundingYear": 1988,
+      "revenue": 947
+    },
+    "type": "company"
+  },
+  {
+    "id": 1011,
+    "properties": {
+      "name": "VF",
+      "country": "US",
+      "foundingYear": 1899,
+      "revenue": 12300
+    },
+    "type": "company"
+  },
+  {
+    "id": 1012,
+    "properties": {
+      "name": "Levi's",
+      "country": "US",
+      "foundingYear": 1853,
+      "revenue": 4680
+    },
+    "type": "company"
+  },
+  {
+    "id": 1013,
+    "properties": {
+      "name": "Mango",
+      "country": "Spain",
+      "foundingYear": 1984,
+      "revenue": 2010
+    },
+    "type": "company"
+  },
+  {
+    "id": 1014,
+    "properties": {
+      "name": "Inditex",
+      "country": "Spain",
+      "foundingYear": 1985,
+      "revenue": 16720
+    },
+    "type": "company"
+  },
+  {
+    "id": 1015,
+    "properties": {
+      "name": "Nike",
+      "country": "US",
+      "foundingYear": 1964,
+      "revenue": 25300
+    },
+    "type": "company"
+  },
+  {
+    "id": 1016,
+    "properties": {
+      "name": "Ports",
+      "country": "US",
+      "foundingYear": 1961,
+      "revenue": 34
+    },
+    "type": "company"
+  },
+  {
+    "id": 1017,
+    "properties": {
+      "name": "Fast Retailing",
+      "country": "Japan",
+      "foundingYear": 1949,
+      "revenue": 9648
+    },
+    "type": "company"
+  }
+]

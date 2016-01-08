@@ -1,24 +1,23 @@
 import express from 'express';
 import sqlite from 'sqlite3';
 import data from './data.json';
+import brands from './brand.json';
+import companies from './company.json';
 import bodyParser from 'body-parser';
 import morgan from 'morgan';
 
-const sqlite3 = sqlite.verbose();
-const db = new sqlite3.Database(':memory:');
-const DEFAULT_PAGE_SIZE = 100;
-
-db.serialize(() => {
+function initData(db) {
   db.run(`
     CREATE TABLE items (
-      id int primary key,
-      brand text not null,
-      title text not null,
+      id int PRIMARY KEY,
+      brand text NOT NULL,
+      title text NOT NULL,
       price numeric,
-      gender text not null,
-      type text not null,
+      gender text NOT NULL,
+      type text NOT NULL,
       recentSold int,
-      totalSold int
+      totalSold int,
+      FOREIGN KEY(brand) REFERENCES brands(name) ON UPDATE CASCADE
     );`);
   db.run(`CREATE INDEX brand_idx ON items (brand);`);
   db.run(`CREATE INDEX type_idx ON items (type);`);
@@ -32,6 +31,59 @@ db.serialize(() => {
     stmt.run(id, type, brand, title, price, gender, recentSold, totalSold);
   }
   stmt.finalize();
+}
+
+function initCompany(db) {
+  db.run(`
+    CREATE TABLE companies (
+      name text PRIMARY KEY,
+      foundingYear int,
+      revenue numeric,
+      country text
+    );`);
+  const stmt = db.prepare(`
+    INSERT OR REPLACE INTO companies
+    (name, foundingYear, revenue, country)
+    VALUES (?, ?, ?, ?);`);
+  for (const c of companies) {
+    const {properties} = c;
+    const {name, foundingYear, revenue, country} = properties;
+    stmt.run(name, foundingYear, revenue, country);
+  }
+  stmt.finalize();
+}
+
+function initBrand(db) {
+  db.run(`
+    CREATE TABLE brands (
+      name PRIMARY KEY,
+      foundingYear int,
+      revenue numeric,
+      holdingCompany text,
+      numEmployees int,
+      country text,
+      FOREIGN KEY(holdingCompany) REFERENCES companies(name) ON UPDATE CASCADE
+    );`);
+  const stmt = db.prepare(`
+    INSERT OR REPLACE INTO brands
+    (name, foundingYear, revenue, holdingCompany, numEmployees, country)
+    VALUES (?, ?, ?, ?, ?, ?);`);
+  for (const b of brands) {
+    const {properties} = b;
+    const {name, foundingYear, revenue, holdingCompany, numEmployees, country} = properties;
+    stmt.run(name, foundingYear, revenue, holdingCompany, numEmployees, country);
+  }
+  stmt.finalize();
+}
+
+const sqlite3 = sqlite.verbose();
+const db = new sqlite3.Database(':memory:');
+const DEFAULT_PAGE_SIZE = 100;
+
+db.serialize(() => {
+  initCompany(db);
+  initBrand(db);
+  initData(db);
 });
 
 const app = express();
@@ -57,18 +109,7 @@ router
       }
     });
   })
-  .get('/items/:item_id', (req, res, next) => {
-    db.get('SELECT * FROM items WHERE id = ? ORDER BY id ASC', req.params.item_id, (err, row) => {
-      if (err) {
-        next(err);
-      } else if (row) {
-        res.json(row);
-      } else {
-        next('id not found');
-      }
-    })
-  })
-  .get('/item_types/', (req, res, next) => {
+  .get('/item_types', (req, res, next) => {
     db.all('SELECT DISTINCT type FROM items ORDER BY type', (err, rows) => {
       if (err) {
         next(err);
@@ -77,10 +118,8 @@ router
       }
     });
   })
-  .get('/item_types/:item_type', (req, res, next) => {
-    const limit = req.query.limit || DEFAULT_PAGE_SIZE;
-    const after = req.query.after || -1;
-    db.all('SELECT * FROM items WHERE type = ? AND id > ? LIMIT ?', req.params.item_type, after, limit, (err, rows) => {
+  .get('/brands', (req, res, next) => {
+    db.all('SELECT * FROM brands ORDER BY name', (err, rows) => {
       if (err) {
         next(err);
       } else {
@@ -88,19 +127,38 @@ router
       }
     });
   })
-  .get('/item_brands/', (req, res, next) => {
-    db.all('SELECT DISTINCT brand FROM items ORDER BY brand', (err, rows) => {
+  .get('/brands/:brand_name/items', (req, res, next) => {
+    const limit = req.query.limit || DEFAULT_PAGE_SIZE;
+    const after = req.query.after || -1;
+    db.all(`SELECT * FROM items AS i JOIN brands AS b
+      ON i.brand == b.name
+      WHERE b.name == ? AND i.id > ?
+      ORDER BY i.id
+      LIMIT ?`, req.params.brand_name, after, limit, (err, rows) => {
       if (err) {
         next(err);
       } else {
-        res.json(rows.map(r => r.brand));
+        res.json(rows);
       }
     });
   })
-  .get('/item_brands/:item_brand', (req, res, next) => {
+  .get('/companies', (req, res, next) => {
+    db.all('SELECT * FROM companies ORDER BY name', (err, rows) => {
+      if (err) {
+        next(err);
+      } else {
+        res.json(rows);
+      }
+    });
+  })
+  .get('/companies/:company_name/brands', (req, res, next) => {
     const limit = req.query.limit || DEFAULT_PAGE_SIZE;
     const after = req.query.after || -1;
-    db.all('SELECT * FROM items WHERE brand = ? AND id > ? LIMIT ?', req.params.item_brand, after, limit, (err, rows) => {
+    db.all(`SELECT * FROM brands AS b JOIN companies AS c
+      ON b.holdingCompany == c.name
+      WHERE c.name == ? AND b.name > ?
+      ORDER BY b.name
+      LIMIT ?`, req.params.company_name, after, limit, (err, rows) => {
       if (err) {
         next(err);
       } else {

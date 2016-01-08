@@ -1,0 +1,317 @@
+[
+  {
+    "media": {
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Adidas_Logo.svg/230px-Adidas_Logo.svg.png"
+    },
+    "id": 20001,
+    "properties": {
+      "name": "Adidas",
+      "foundingYear": 1924,
+      "revenue": 14490,
+      "holdingCompany": "Adidas",
+      "numEmployees": 53731,
+      "country": "Germany"
+    },
+    "type": "brand"
+  },
+  {
+    "media": {
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Calvin_klein_logo.svg/180px-Calvin_klein_logo.svg.png"
+    },
+    "id":  20002,
+    "properties": {
+      "name": "Calvin Clein",
+      "foundingYear": 1968,
+      "revenue": 2800,
+      "holdingCompany": "PVH",
+      "numEmployees": 4332,
+      "country": "US"
+    },
+    "type": "brand"
+  },
+  {
+    "media": {
+      "logo": "http://img170.poco.cn/mypoco/myphoto/20120314/16/55240029201203141617594107724804132_000.jpg"
+    },
+    "id": 20003,
+    "properties": {
+      "name": "速写",
+      "foundingYear": 2005,
+      "revenue": null,
+      "holdingCompany": "江南布衣",
+      "numEmployees": null,
+      "country": "China"
+    },
+    "type": "brand"
+  },
+  {
+    "media": {
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/07/Esprit_Holdings_logo.svg/200px-Esprit_Holdings_logo.svg.png"
+    },
+    "id": 20004,
+    "properties": {
+      "name": "Esprit",
+      "foundingYear": 1968,
+      "revenue": 2503,
+      "holdingCompany": "Esprit",
+      "numEmployees": 15000,
+      "country": "Germany"
+    },
+    "type": "brand"
+  },
+  {
+    "media": {
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/GANT-logotype-Black.png/250px-GANT-logotype-Black.png"
+    },
+    "id": 20005,
+    "properties": {
+      "name": "Gant",
+      "foundingYear": 1949,
+      "revenue": 167,
+      "holdingCompany": "Maus Frères",
+      "numEmployees": null,
+      "country": "US"
+    },
+    "type": "brand"
+  },
+  {
+    "media": {
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Gap_logo.svg/150px-Gap_logo.svg.png"
+    },
+    "id": 20006,
+    "properties": {
+      "name": "Gap",
+      "foundingYear": 1969,
+      "revenue": 16148,
+      "holdingCompany": "Gap",
+      "numEmployees": 137000,
+      "country": "US"
+    },
+    "type": "brand"
+  },
+  {
+    "media": {
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/85/G-Star_Raw_logo.png/220px-G-Star_Raw_logo.png"
+    },
+    "id": 20007,
+    "properties": {
+      "name": "G-Star",
+      "foundingYear": 1989,
+      "revenue": null,
+      "holdingCompany": "G-Star",
+      "numEmployees": null,
+      "country": "Netherlands"
+    },
+    "type": "brand"
+  },
+  {
+    "media": {
+      "logo": "https://upload.wikimedia.org/wikipedia/en/9/92/Hollister_Co._Logo.jpg"
+    },
+    "id": 20008,
+    "properties": {
+      "name": "Holister",
+      "foundingYear": 2000,
+      "revenue": null,
+      "holdingCompany": "AF",
+      "numEmployees": null,
+      "country": "US"
+    },
+    "type": "brand"
+  },
+  {
+    "media": {
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Hugo-Boss-Logo.svg/200px-Hugo-Boss-Logo.svg.png"
+    },
+    "id": 20009,
+    "properties": {
+      "name": "Hugo Boss",
+      "foundingYear": 1924,
+      "revenue": 2434,
+      "holdingCompany": "Hugo Boss",
+      "numEmployees": 12496,
+      "country": "Germany"
+    },
+    "type": "brand"
+  },
+  {
+    "media": {
+      "logo": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRTIc3qKyNlMkLDQPlPY1ouiN8lcT6mYx0_ghmxG9kPDJzWpTegsCNWFDY"
+    },
+    "id": 20010,
+    "properties": {
+      "name": "Izzue",
+      "foundingYear": 1988,
+      "revenue": null,
+      "holdingCompany": "I.T",
+      "numEmployees": null,
+      "country": "China"
+    },
+    "type": "brand"
+  },
+  {
+    "media": {
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/43/Lacoste_logo.svg/195px-Lacoste_logo.svg.png"
+    },
+    "id": 20011,
+    "properties": {
+      "name": "Lacoste",
+      "foundingYear": 1933,
+      "revenue": null,
+      "holdingCompany": "Maus Frères",
+      "numEmployees": null,
+      "country": "France"
+    },
+    "type": "brand"
+  },
+  {
+    "media": {
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Lee_logo.svg/150px-Lee_logo.svg.png"
+    },
+    "id": 20012,
+    "properties": {
+      "name": "Lee",
+      "foundingYear": 1889,
+      "revenue": null,
+      "holdingCompany": "VF",
+      "numEmployees": 400,
+      "country": "US"
+    },
+    "type": "brand"
+  },
+  {
+    "media": {
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Levi%27s_logo.svg/180px-Levi%27s_logo.svg.png"
+    },
+    "id": 20013,
+    "properties": {
+      "name": "Levi's",
+      "foundingYear": 1853,
+      "revenue": 4680,
+      "holdingCompany": "Levi's",
+      "numEmployees": 15000,
+      "country": "US"
+    },
+    "type": "brand"
+  },
+  {
+    "media": {
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Logo_of_Mango_%28new%29.svg/200px-Logo_of_Mango_%28new%29.svg.png"
+    },
+    "id": 20014,
+    "properties": {
+      "name": "Mango",
+      "foundingYear": 1984,
+      "revenue": 2010,
+      "holdingCompany": "Mango",
+      "numEmployees": 12200,
+      "country": "Spain"
+    },
+    "type": "brand"
+  },
+  {
+    "media": {
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/74/Massimo_Dutti.png/230px-Massimo_Dutti.png"
+    },
+    "id": 20015,
+    "properties": {
+      "name": "Massimo Dutti",
+      "foundingYear": 1985,
+      "revenue": 1413,
+      "holdingCompany": "Inditex",
+      "numEmployees": 4000,
+      "country": "Spain"
+    },
+    "type": "brand"
+  },
+  {
+    "media": {
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Nautica.png/200px-Nautica.png"
+    },
+    "id": 20016,
+    "properties": {
+      "name": "Nautica",
+      "foundingYear": 1983,
+      "revenue": null,
+      "holdingCompany": "VF",
+      "numEmployees": null,
+      "country": "US"
+    },
+    "type": "brand"
+  },
+  {
+    "media": {
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Logo_NIKE.svg/200px-Logo_NIKE.svg.png"
+    },
+    "id": 20017,
+    "properties": {
+      "name": "Nike",
+      "foundingYear": 1964,
+      "revenue": 25300,
+      "holdingCompany": "Nike",
+      "numEmployees": 4400,
+      "country": "US"
+    },
+    "type": "brand"
+  },
+  {
+    "media": {
+      "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYIAAACCCAMAAAB8Uz8PAAAAkFBMVEX///8AAgAAAADx8vEqKymqq6rr6+v5+Plzc3OwsLD8/Pzw8PC1trXIyMjZ2dmEhIROT048PTwmJiXl5eXPz8/f39+Oj46jpKNmZ2aam5psbWxJSknOzs59fn0aHBp3eHfBwsFDRENYWVgeIB6cnZw0NTTExcQNDgxUVVSIiYg1NjUSFRMbHRpeX15maGYuLi7HvpxXAAAOk0lEQVR4nO2da4PiqBKG09gajTFeEhPvxta2tR1n/v+/O7mHIlyKmJ2Z3cP7ZWdtEoEHCigKtCwjIyMjIyMjIyMjIyMjI6M/IyfRn87DPynHsf/aAtreaPq8PTf76X6T/PfuevafzlLH6l3D42Z43B83m+G+7+mA6EWjpqJS/ZE7Wfq9lzLnBOsTIYfQK1/TC8IHIds1Np9O1O+Ls5hk0o295QD3skmfVRRdLhH85BJFjWR9WZux3dtH3y9z4Azi/fzpUrVm76Tl2/8irL68QhN3vTkkHyxu+5EW2Fq7Y/qCG5uHySz59HAMUO9IEbIKyjzu4svqK33ZaRgFyr41a7xoFe3GK/CJ57lZpqE84TvHdzL02Q+9IXnG5f+MQkW2lhtC3iiRd/Bn/3LO8nDYxLoUnOg9ffI84fwtzkr53ke9MyklzCKBj3nTovE8Xfn76Nck6fdBlvwIPh1nb7x/ga8kruiVa3Lg4umF5Ctcpv8KyF5ZwlCGINEoyU1WxOlA+S5KUV4vG/5fnaLt9VHvimGFELa991ZlHveSPI4J9YpHhX8IEJTPx6l9qD6e8t/of5K5iPr4I2l+x+mckKe6gFtQvgYCq5cnSPvtUv22XO5bWgBC1sIUYZ7gIWxgtPZyBBnwIo9DIYQJqV6wGNUf8xEkEOYVA3LjvjBpGQ+J9esXVmyrLl+sQGBZG1J23jvKdAxmWe4JiSSJ1kWaG6JzLaEN4ZTbJVUeRV+6LlMcRvTHIgRJxXyXLz3zip32c+lQG+Ql5NUoozEoH/eBJ6naD6IjjMqcyweiaVkl6o7gLFQIrEvdxlf8dvIzR872TDGCBOyjaCecZpI2coWN8R+kOXTx5HwpEfQOdQFj1fuOJQGVEbyVDASmltJWiYBKQubcmXReHyu2NmUILCfMhgROa7+mww9vqkHL/yLlEC/XWYmg6ufqRpuMHEXNHlSzxF75UjJTJb2pEQTU8MkbJO3ULv9qVpoUQVKLH2ldN4zbOJsAKNu3l34pwnAgEFjzunxENqEfv1c2K1Z+sVtx/VSsABEI6DRk1fxzWhs8y6hAkAwJyceNiWVqmjED7Ug1YORaIBC4VPm+xPU1rnCSD/UX18aD/JIzwCCgpxWcrtonv7hTeCUCyx42Kjv7LtGMG2iDaYsoBPS6RvzVdk0A0/3SllkxkNoiDAKbziJp/HkjGHHUCBLDf2a+8jtDoB7DktGEY8WaQiHY0OUTmSLKXHFMAUer+oGZLB0GgfVBJ2qUWzT3xSCwbGj1JwSNIOkwKg+FhUQwohMJjExdGlwnoLvBm3Qhj0KwphMtUN9vIREwytsjyhBZ1mmoToNC4IGcNjxTqUZUfSJGqjx/FDXJVAuFAAwGEtcaVAsETrEWn6O+IEAkQyGwwQKO59vxaVuM8jtY6SCJKj8KgafMIk8tEATlggYx40+EcBKhEEA/409Ogi1dm9hdmQHNje+KSYVC4IMsqh2UuVogKNuNxAVGC2GTcQh+0am+efmiKhMBvhA9mxf3HRSCAUCAzUILBKXXUGCQWwiH4ESnejTWhfajjRVInV30a0WpUAh6AAFmXZKqBYJqHke+O9otxiEAbprm6uwCSoJvHdAJKppC/10IqDmE0rWCUxcI4Gh91vh24B4ReV1m+oaIN1zx1ALBnDKeC+zMSyocgjmd6sBWFd0J3ghiJlxpBZ4UWDAUAjgcIxZEmVoggLnZd9ARcAje6VSN4XiBqUiuIvDkJz8RCkEA3oSdFrdAMARfRMhaa0uXpxaTUtb9MKEz9Sb1pbLyYHn4j6IQxPqVabVCALfbsy3d62vjcoulGTshZtqFTtcEFlzkd0EhoGtG7nISZR2JwIUIMgiP/e4FCi0cFExbBRtveqOxZR3As3zfDgoBmDZdsV/fAgFsNRWFr2GMWy43hULgyhJ50A7hF2apTvBh7loSgwA4q7E+qnZuulMTQU6BzC7oKBNaKAQg4omdvl9gLR61vn4DH+YuDTAIqKFAZ2HSBsGIi6CgsJjqDIW5tLdsvlir94S1iHOdlJrCh7kbDRgEdRpCRtwUXLVB4BxEDHIKJNTsCxgEE7qJNeZ7TMShRgVYjS7EHQwQCOrte/4esUhtEDDxfTwKn5FOQDQGAbUj1dypGMP8oKfkuWCv5nuAEQjqfWhy0fn6VghgfJ8Agyy6khECAb271dyBCBgEqvAaqJhBwFvxqxGUK7yk6OjJUKZ2CKwPaT8ocjLF9gQEAqqJnZoVwMyT0RtWuSaIPqREcK0CGn9qLlVbInCeSgZv6LhlBIJ7TWDIWYBcmErUG4t2zEjCy7UKgVsEHpIZImgHqiWCIjBZCWGG6ghKBJc6ZpZr5tkFu95GRsAg4M2nFAjCIrh91cJt2RqBtTugIGDypEKwryLHp/zp4P0lBB6DgDedkSJw3/Mg8qjV2rQ9ggw9whohlglyBPGiaGKLi6iI004R3DlpxAiCe1b999a+gVcQpKdplBQwAT0SBIP+Ij+n8BlK+tMf6gVeeNyS2T4KXvIVv4Qg0WiuokC+lG5LHgLbD0bh85EeFptv1hN5E+t2LODN6vm9wNukLsrT5rJ7YdfkVQTpYbeznII65ouHoOdd4/i68/wewgUbMQh0J6XqtbXIEC23xWmip9uWwusIEgXTdwkFdXA1bstGophBoOemujJPx5w04rFgWk5HSdjuiHQnCBItL2KLpIwleBmBh6hEsdjVMW/wksyIyoEo3UBss2nSFQIrPSK85VNQjsgvI3Be8hH1GQS8xiyblFZuWkLef+u6gCc/OvEgqByHLyOwfqjXt2IxB5+5G/gyBNRxRS0vdaFuESRa3psQeOGHtF5HMIS1qOMrZp2O/FhQ6dKMmg1oeknZvHeCILEKFxaCKgL4dQSMvxkXd1+K2e/hWjG5g2JBM0CcaQHSR2Ajhpw1y0A+JwII0EcjaPmwFtHRC5k+6YcFlSBHAPa1NV3lLRDEmL3xMfRmKyzk6wjYatR5lIm+OHETKdx09D4iOehNTvURXHHlA55UxWZuBwiYIVXHX+PD1sK35QoEMCIPdQSskj6CCXL5D8L95eNjBwiWsB51bMEVdiB+6RQIYJyZ3pjaBgFy1n35nQhAHemFUKzBk4JlpGrLBvRCrajiVgiwUTr1TOM3IIBtWSeWa4bpPyoE8CoTrW27NgiwlVSH3Skmal0ggLHvGuMxtCGiFYxy7xjeWIQ79JyrDQI04ypbCqdNJwhgN8A7CmBEumj2rETAdAMNR0UrBNgFYLUXooDWCQJ4Cgc/GNDbPeIjl+oglmNbS9gKATZk1SnOEJE3ebpuENCbX8hD0am+6ZWtsKmoESzbdoNWCNC7UkUInMo0doOA3kHGZ9HDzZ0R0XQgOlhyhJlVGwR4N1gxGKimsR0hcKiTyWhLRNkhmTcRgQBuQWMuAcrVDsEB+fZ8tqw89NIRAtoWiE8QQ1EhytKeg4msBu4+vClshQC9J5KvepQLia4QgHtAYtQTLkVA9gQGAdMNcBlojYDvy2oo6+XqSWxnCCizotqjKFTZLkVAOkQg8MPBboDLABxD8AiwiPNrIZXL9e4Q0DcSYXrqqCYgv7UDhSCAkyKkqdBHsCN4xKkLGXFjS4cIrOoKbLLQuJ5TRQB33I/xdSA3n1oiwG3P+lkkoroxdImguqUUM2+bVgRU/mUcAhiRhNzChggwk+kCAQZX6kXHOPUAAr0DqxzVYdiq5VFQpVRuNm4xhog5Cam+KDXTqiUC1Iic2CHMHqLzRmdCHf+oUnXa4od8+6pXEVCHfn3j6om5BAC1OLkBbBj/267svMpbp5KxTny3OyW/vaOXr+LW8DeylX27My/68029x9bD7gjNQTpUm4a3Z2DG8BKB8vpLPz1zggkvgxGh+lEgHBVbdrI4Pmebz5hRkT9MwJ04QgMGR2JMBQwqRrm5d9ksJ5O0suxvgtvcgdvnMkurIfuYX7fNOZiWq3fKy4G7SeaTyaJ4lGFSqu+FmjGvRhiBIA32Hw6/s9/VECdzTqiLei1rDPpumovvTsKZ/OJ3Ovi+mmt+bGSD8ubZH2wWv4QM2JOH34oqPbKvfqgZBGSeJbJHSSWfREVIQG0wrdkLCUf3Tm6a8sPsF2uGTVM/SM8FkHOIYr1cv3GyeAwENvadTTkUpUya36j5c0pJw1aVflffPrDcC05/jTfkianFHq/+c7U9NsRkdp/+3tIeNpRlaqQee5wr0/khzCK/hC4npWD43nKS5pJP0Sb0nx33RPZMz3GCFbkj3fXjnkDjzn6nzrs8z+R973r+uDf2g9F+Qc6rCN/NtLPYfGAsustOKPkAxX7xoH87HaPdcpB8le/F681tqn309p/W2IujcJoqjGKvmw72d8nxr1kJ72Hkel3MZ4yMjIyMjIyMjIyMjIyMjIyMjIyMjP5FsjvZZTXiyllTt+721rPbNmR3GoLj/Oel3kBxda+fMJJpENIxPbt0J9w/wYAEb0uienvL7r+jf9DPCKFoPaWiYf08jNk50PvFd3KmjFAcrtWRqUZasikEH0VoYkTdF7UiD2aDcG4QdKtejWBchkQt69ioaTOCwiDoWBSCXXkfvl0FCE5I8+SKQdCxKATXMvDUqQ6zbglZBuF+TfcEg6BjUQiW5SEcpzz2nnxCZs/jNyGrek5kEHQsCoH1XZx6SBDkNxuMSB4C7RIqcNcg6Fg0goCQn3YeKZyfnlqXg/GdCj40CDoWjcCaPAj59ThdygpflyH4PnVY1iDoWD14UDFwY986luuCqETgPOqZkUHQsXrNs6J+tSwIqlXBZ13vBkHH4iDYVi3eORfHvJJ/xOWfDYKO1UQwpI4P9otrPnzqkK5B0LFYBPYK/J7XMf/rnfoduU+DoEv1Bsl082NQbRCML+QEj76syXowCCszZA+StcJh2d3RlP97Tfoj1x31i35wXT3XjVN4fvhc1T/l6fX7ruv2R//F8yN/g0zTNjIyMjIyMjIyMjIyMjL6r+l/JoC9ElPmGC0AAAAASUVORK5CYII="
+    },
+    "id": 20018,
+    "properties": {
+      "name": "Ports",
+      "foundingYear": 1968,
+      "revenue": 34,
+      "holdingCompany": "Ports",
+      "numEmployees": 5000,
+      "country": "China"
+    },
+    "type": "brand"
+  },
+  {
+    "media": {
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Actual_logo_pull_and_bear.jpg/220px-Actual_logo_pull_and_bear.jpg"
+    },
+    "id": 20019,
+    "properties": {
+      "name": "Pull and Bear",
+      "foundingYear": 1986,
+      "revenue": 1284,
+      "holdingCompany": "Inditex",
+      "numEmployees": 3000,
+      "country": "Spain"
+    },
+    "type": "brand"
+  },
+  {
+    "media": {
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Tommy_hilfig_vectorlogo.svg/250px-Tommy_hilfig_vectorlogo.svg.png"
+    },
+    "id": 20020,
+    "properties": {
+      "name": "Tommy Hilfiger",
+      "foundingYear": 1985,
+      "revenue": 6700,
+      "holdingCompany": "PVH",
+      "numEmployees": 10000,
+      "country": "US"
+    },
+    "type": "brand"
+  },
+  {
+    "media": {
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/UNIQLO_logo.svg/204px-UNIQLO_logo.svg.png"
+    },
+    "id": 20021,
+    "properties": {
+      "name": "Uniqlo",
+      "foundingYear": 1949,
+      "revenue": null,
+      "holdingCompany": "Fast Retailing",
+      "numEmployees": 30000,
+      "country": "Japan"
+    },
+    "type": "brand"
+  }
+]
